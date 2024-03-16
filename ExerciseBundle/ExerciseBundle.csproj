@@ -119,6 +119,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Currency.aspx" />
     <Content Include="DestinationsList.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -183,6 +184,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Currency.aspx.cs">
+      <DependentUpon>Currency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Currency.aspx.designer.cs">
+      <DependentUpon>Currency.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DestinationsList.aspx.cs">
       <DependentUpon>DestinationsList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
