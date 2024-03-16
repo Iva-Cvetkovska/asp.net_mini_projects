@@ -42,12 +42,39 @@ namespace ExerciseBundle
         protected global::System.Web.UI.WebControls.ListBox DestinationList;
 
         /// <summary>
-        /// ResultLabel control.
+        /// ResultLabelSingleSelect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ResultLabel;
+        protected global::System.Web.UI.WebControls.Label ResultLabelSingleSelect;
+
+        /// <summary>
+        /// Table2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table2;
+
+        /// <summary>
+        /// MultipleDestinationsList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox MultipleDestinationsList;
+
+        /// <summary>
+        /// ResultLabelMultipleSelect control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ResultLabelMultipleSelect;
     }
 }
