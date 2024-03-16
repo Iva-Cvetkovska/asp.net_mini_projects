@@ -17,7 +17,13 @@ namespace ExerciseBundle
         protected void SubmitBtn_Click(object sender, EventArgs e)
         {
             if (DestinationList.SelectedIndex > -1)
-                ResultLabel.Text = "You chose: " + DestinationList.SelectedItem.Text;
+            {
+                ResultLabel.Text = "You chose: ";
+                ResultLabel.Text += DestinationList.SelectedItem.Text;
+                ResultLabel.Text += ", which is ";
+                ResultLabel.Text += DestinationList.SelectedItem.Value;
+                ResultLabel.Text += " away from Skopje.";
+            }
         }
 
         protected void ResetBtn_Click(object sender, EventArgs e)

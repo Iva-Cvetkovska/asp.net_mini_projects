@@ -13,6 +13,12 @@
         .submit-btn {
             margin-right: 8px;
         }
+
+        .result-label {
+            display: block;
+            text-align: center;
+            margin-top: 8px;
+        }
     </style>
 </head>
 <body>
@@ -27,10 +33,11 @@
             <asp:TableRow>
                 <asp:TableCell>
                     <asp:ListBox ID="DestinationList" Rows="4" Width="150px" runat="server">
-                        <asp:ListItem>Lisbon</asp:ListItem>
-                        <asp:ListItem>Oslo</asp:ListItem>
-                        <asp:ListItem>Reykjavík</asp:ListItem>
-                        <asp:ListItem>Amsterdam</asp:ListItem>
+                        <%--The Value represents the distance from each city to Skopje--%>
+                        <asp:ListItem Value="3,572km">Lisbon</asp:ListItem>
+                        <asp:ListItem Value="2,700km">Oslo</asp:ListItem>
+                        <asp:ListItem Value="4,851km">Reykjavík</asp:ListItem>
+                        <asp:ListItem Value="2,201km">Amsterdam</asp:ListItem>
                     </asp:ListBox>
                 </asp:TableCell>
             </asp:TableRow>
@@ -40,12 +47,8 @@
                     <asp:Button runat="server" Text="Reset" OnClick="ResetBtn_Click" />
                 </asp:TableCell>
             </asp:TableRow>
-            <asp:TableRow>
-                <asp:TableCell>
-                    <asp:Label ID="ResultLabel" runat="server" Text=""></asp:Label>
-                </asp:TableCell>
-            </asp:TableRow>
         </asp:Table>
+        <asp:Label ID="ResultLabel" CssClass="result-label" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>
