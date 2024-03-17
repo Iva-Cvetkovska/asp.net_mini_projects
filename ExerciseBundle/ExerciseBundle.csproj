@@ -179,6 +179,9 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Votes\Login.aspx" />
+    <Content Include="Votes\SuccessPage.aspx" />
+    <Content Include="Votes\Votes.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
@@ -210,6 +213,27 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Votes\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Votes\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Votes\SuccessPage.aspx.cs">
+      <DependentUpon>SuccessPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Votes\SuccessPage.aspx.designer.cs">
+      <DependentUpon>SuccessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Votes\Votes.aspx.cs">
+      <DependentUpon>Votes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Votes\Votes.aspx.designer.cs">
+      <DependentUpon>Votes.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
