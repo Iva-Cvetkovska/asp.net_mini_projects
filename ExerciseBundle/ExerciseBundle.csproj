@@ -180,6 +180,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="VotesStyleSheet.css" />
     <Content Include="Votes\Login.aspx" />
     <Content Include="Votes\SuccessPage.aspx" />
     <Content Include="Votes\Votes.aspx" />

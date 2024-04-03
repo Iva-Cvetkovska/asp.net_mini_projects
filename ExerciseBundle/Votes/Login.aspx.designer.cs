@@ -177,13 +177,13 @@ namespace ExerciseBundle.Votes
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
 
         /// <summary>
-        /// validatePersonalInfoBtn control.
+        /// loginBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button validatePersonalInfoBtn;
+        protected global::System.Web.UI.WebControls.Button loginBtn;
 
         /// <summary>
         /// ValidationSummary1 control.

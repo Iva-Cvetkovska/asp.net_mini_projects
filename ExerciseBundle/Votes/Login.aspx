@@ -31,7 +31,7 @@
             <asp:TextBox ID="txtYears" CssClass="grid-j" name="txtYears" runat="server"></asp:TextBox>
             <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Allowed range for years is 18 - 100" ValidationGroup="PersonalInfo" ControlToValidate="txtYears" Display="None" Font-Bold="False" MaximumValue="100" MinimumValue="18" Type="Integer" Visible="True"></asp:RangeValidator>
 
-            <asp:Button ID="validatePersonalInfoBtn" CssClass="grid-k" runat="server" Text="Validate Personal Info" OnClick="Login_User" ValidationGroup="PersonalInfo" />
+            <asp:Button ID="loginBtn" CssClass="grid-k" runat="server" Text="Login" OnClick="Login_User" ValidationGroup="PersonalInfo" />
         </div>
         <div class="validation">
             <asp:ValidationSummary ID="ValidationSummary1" runat="server" ValidationGroup="PersonalInfo" />
