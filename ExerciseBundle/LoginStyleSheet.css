@@ -1,0 +1,60 @@
+﻿.grid {
+    display: grid;
+    grid-template: repeat(5, 1fr) / 120px 200px;
+    grid-template-areas:
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "k k";
+    grid-row-gap: 8px;
+}
+
+.grid-a {
+    grid-area: a;
+}
+
+.grid-b {
+    grid-area: b;
+}
+
+.grid-c {
+    grid-area: c;
+}
+
+.grid-d {
+    grid-area: d;
+}
+
+.grid-e {
+    grid-area: e;
+}
+
+.grid-f {
+    grid-area: f;
+}
+
+.grid-g {
+    grid-area: g;
+}
+
+.grid-h {
+    grid-area: h;
+}
+
+.grid-i {
+    grid-area: i;
+}
+
+.grid-j {
+    grid-area: j;
+}
+
+.grid-k {
+    grid-area: k;
+}
+
+.validation {
+    color: red;
+}
